@@ -2,8 +2,8 @@ import openai
 import json
 import os
 
-os.environ["HTTP_PROXY"] = "http://127.0.0.1:7890"
-os.environ["HTTPS_PROXY"] = "http://127.0.0.1:7890"
+os.environ["HTTP_PROXY"] = "http://vercel.com/andyyaung/chat-gpt-3-5-api:7890"
+os.environ["HTTPS_PROXY"] = "https://vercel.com/andyyaung/chat-gpt-3-5-api:7890"
 
 # 获取 api
 def get_api_key():
